@@ -14,6 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface UIButton (XIBInspectable)
 
 /*! 按钮高亮时的标题*/

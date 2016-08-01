@@ -20,6 +20,9 @@
 		1DE2131F1D4FA45400AF5E4F /* UIButton+XIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2131E1D4FA45400AF5E4F /* UIButton+XIBInspectable.m */; };
 		1DE213221D4FA46A00AF5E4F /* IBPlaceHolderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE213211D4FA46A00AF5E4F /* IBPlaceHolderButton.m */; };
 		1DE213241D4FA5D900AF5E4F /* UIButtonDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE213231D4FA5D900AF5E4F /* UIButtonDisplay.storyboard */; };
+		1DE213281D4FA8ED00AF5E4F /* IBPlaceHolderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE213271D4FA8ED00AF5E4F /* IBPlaceHolderTextField.m */; };
+		1DE2132B1D4FA93300AF5E4F /* UITextField+XIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE2132A1D4FA93300AF5E4F /* UITextField+XIBInspectable.m */; };
+		1DE2132D1D4FA99500AF5E4F /* UITextFieldDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE2132C1D4FA99500AF5E4F /* UITextFieldDisplay.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,11 @@
 		1DE213201D4FA46A00AF5E4F /* IBPlaceHolderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPlaceHolderButton.h; sourceTree = "<group>"; };
 		1DE213211D4FA46A00AF5E4F /* IBPlaceHolderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPlaceHolderButton.m; sourceTree = "<group>"; };
 		1DE213231D4FA5D900AF5E4F /* UIButtonDisplay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UIButtonDisplay.storyboard; sourceTree = "<group>"; };
+		1DE213261D4FA8ED00AF5E4F /* IBPlaceHolderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPlaceHolderTextField.h; sourceTree = "<group>"; };
+		1DE213271D4FA8ED00AF5E4F /* IBPlaceHolderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPlaceHolderTextField.m; sourceTree = "<group>"; };
+		1DE213291D4FA93300AF5E4F /* UITextField+XIBInspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+XIBInspectable.h"; sourceTree = "<group>"; };
+		1DE2132A1D4FA93300AF5E4F /* UITextField+XIBInspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XIBInspectable.m"; sourceTree = "<group>"; };
+		1DE2132C1D4FA99500AF5E4F /* UITextFieldDisplay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITextFieldDisplay.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 		1DE2130B1D4F99CC00AF5E4F /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				1DE213251D4FA8D100AF5E4F /* UITextField */,
 				1DE2131C1D4FA36E00AF5E4F /* UIButton */,
 				1DE2130C1D4F99E400AF5E4F /* UIView */,
 			);
@@ -132,6 +141,18 @@
 				1DE213231D4FA5D900AF5E4F /* UIButtonDisplay.storyboard */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		1DE213251D4FA8D100AF5E4F /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				1DE213261D4FA8ED00AF5E4F /* IBPlaceHolderTextField.h */,
+				1DE213271D4FA8ED00AF5E4F /* IBPlaceHolderTextField.m */,
+				1DE213291D4FA93300AF5E4F /* UITextField+XIBInspectable.h */,
+				1DE2132A1D4FA93300AF5E4F /* UITextField+XIBInspectable.m */,
+				1DE2132C1D4FA99500AF5E4F /* UITextFieldDisplay.storyboard */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +215,7 @@
 				1DE213041D4F990F00AF5E4F /* LaunchScreen.storyboard in Resources */,
 				1DE213011D4F990F00AF5E4F /* Assets.xcassets in Resources */,
 				1DE2131B1D4FA03B00AF5E4F /* UIViewDisplay.storyboard in Resources */,
+				1DE2132D1D4FA99500AF5E4F /* UITextFieldDisplay.storyboard in Resources */,
 				1DE213241D4FA5D900AF5E4F /* UIButtonDisplay.storyboard in Resources */,
 				1DE212FF1D4F990F00AF5E4F /* Main.storyboard in Resources */,
 			);
@@ -210,7 +232,9 @@
 				1DE213151D4F9B2C00AF5E4F /* IBSeparateLine.m in Sources */,
 				1DE213221D4FA46A00AF5E4F /* IBPlaceHolderButton.m in Sources */,
 				1DE212F91D4F990F00AF5E4F /* AppDelegate.m in Sources */,
+				1DE2132B1D4FA93300AF5E4F /* UITextField+XIBInspectable.m in Sources */,
 				1DE2131F1D4FA45400AF5E4F /* UIButton+XIBInspectable.m in Sources */,
+				1DE213281D4FA8ED00AF5E4F /* IBPlaceHolderTextField.m in Sources */,
 				1DE213121D4F9A4000AF5E4F /* UIView+XIBInspectable.m in Sources */,
 				1DE212F61D4F990F00AF5E4F /* main.m in Sources */,
 				1DE2130F1D4F9A1300AF5E4F /* IBPlaceHolderView.m in Sources */,
@@ -364,6 +388,7 @@
 				1DE2130A1D4F990F00AF5E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

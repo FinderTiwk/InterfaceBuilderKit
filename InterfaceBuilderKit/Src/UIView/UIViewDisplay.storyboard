@@ -60,22 +60,14 @@ dmVkLg
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="5FM-Oa-vEE" secondAttribute="trailing" id="2PP-Vr-XwQ"/>
                             <constraint firstItem="7ch-S8-gYQ" firstAttribute="top" secondItem="5FM-Oa-vEE" secondAttribute="bottom" constant="20" id="2xY-gs-MxN"/>
                             <constraint firstAttribute="trailing" secondItem="S0R-8e-uYJ" secondAttribute="trailing" constant="20" id="CAl-c5-IBm"/>
                             <constraint firstItem="pDY-ZS-ScE" firstAttribute="centerY" secondItem="MwX-1O-JMU" secondAttribute="centerY" id="etP-79-Jvh"/>
                             <constraint firstItem="S0R-8e-uYJ" firstAttribute="leading" secondItem="MwX-1O-JMU" secondAttribute="leading" constant="20" id="kcF-b0-kxh"/>
                             <constraint firstItem="pDY-ZS-ScE" firstAttribute="centerX" secondItem="MwX-1O-JMU" secondAttribute="centerX" id="pNq-fm-o5F"/>
                             <constraint firstItem="5FM-Oa-vEE" firstAttribute="centerX" secondItem="MwX-1O-JMU" secondAttribute="centerX" id="tcI-Gz-fmy"/>
-                            <constraint firstItem="5FM-Oa-vEE" firstAttribute="leading" secondItem="MwX-1O-JMU" secondAttribute="leading" id="uCo-XP-PKy"/>
                             <constraint firstItem="S0R-8e-uYJ" firstAttribute="top" secondItem="pDY-ZS-ScE" secondAttribute="bottom" constant="10" id="yaZ-YN-6Uq"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="2PP-Vr-XwQ"/>
-                                <exclude reference="uCo-XP-PKy"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uGa-Vr-Vwr" userLabel="First Responder" sceneMemberID="firstResponder"/>

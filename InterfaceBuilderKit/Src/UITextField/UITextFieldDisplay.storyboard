@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h93-he-8e0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iEb-Q8-Gw4">
+            <objects>
+                <viewController id="h93-he-8e0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hPm-M3-SVe"/>
+                        <viewControllerLayoutGuide type="bottom" id="HAd-oU-tPa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xFI-GO-4TO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxD-cI-gT9">
+                                <rect key="frame" x="190.5" y="549.5" width="219.5" height="30.5"/>
+                                <string key="text" base64-UTF8="YES">
+Q29weXJpZ2h0IChjKSAyMDE25bm0IF9GaW5kZXLkuLZUaXdr76O/LgvigKhBbGwgcmlnaHRzIHJlc2Vy
+dmVkLg
+</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="UITextField+XIBInspectable" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zEQ-n5-cfE" customClass="IBPlaceHolderTextField">
+                                <rect key="frame" x="140" y="265" width="320" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="A0e-BJ-oTt"/>
+                                    <constraint firstAttribute="height" constant="70" id="jOR-A4-CcN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="X_LeftIcon" value="avatar"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="X_CornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="X_BorderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="X_BorderColor">
+                                        <color key="value" red="0.42276751369999999" green="0.74122425800000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zEQ-n5-cfE" firstAttribute="centerY" secondItem="xFI-GO-4TO" secondAttribute="centerY" id="9wl-PH-LXc"/>
+                            <constraint firstItem="cxD-cI-gT9" firstAttribute="centerX" secondItem="xFI-GO-4TO" secondAttribute="centerX" id="K04-hk-OzF"/>
+                            <constraint firstItem="HAd-oU-tPa" firstAttribute="top" secondItem="cxD-cI-gT9" secondAttribute="bottom" constant="20" id="OuD-ns-88T"/>
+                            <constraint firstItem="zEQ-n5-cfE" firstAttribute="centerX" secondItem="xFI-GO-4TO" secondAttribute="centerX" id="vSX-iI-WZX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fv8-G6-WOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="17"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatar" width="58" height="58"/>
+    </resources>
+</document>

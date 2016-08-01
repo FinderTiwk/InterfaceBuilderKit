@@ -52,18 +52,10 @@ dmVkLg
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="idh-k3-GBe" firstAttribute="centerY" secondItem="key-Bc-MJ0" secondAttribute="centerY" id="KvT-ae-HQ5"/>
-                            <constraint firstItem="Xao-ma-kWj" firstAttribute="leading" secondItem="key-Bc-MJ0" secondAttribute="leading" id="Pdi-pp-Xwe"/>
                             <constraint firstItem="i1h-Wg-7Sg" firstAttribute="top" secondItem="Xao-ma-kWj" secondAttribute="bottom" constant="20" id="XoP-G8-9mj"/>
-                            <constraint firstAttribute="trailing" secondItem="Xao-ma-kWj" secondAttribute="trailing" id="wBI-j1-0hb"/>
                             <constraint firstItem="Xao-ma-kWj" firstAttribute="centerX" secondItem="key-Bc-MJ0" secondAttribute="centerX" id="ydc-QB-4Yw"/>
                             <constraint firstItem="idh-k3-GBe" firstAttribute="centerX" secondItem="key-Bc-MJ0" secondAttribute="centerX" id="zPw-Mm-KWc"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="Pdi-pp-Xwe"/>
-                                <exclude reference="wBI-j1-0hb"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKm-mf-I9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
