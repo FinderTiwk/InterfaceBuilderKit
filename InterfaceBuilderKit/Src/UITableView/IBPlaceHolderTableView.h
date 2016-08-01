@@ -1,5 +1,5 @@
 //
-//  IBPlaceHolderTextField.h
+//  IBPlaceHolderTableView.h
 //  InterfaceBuilderKit
 //
 //  _____  _           _          _____ _          _
@@ -8,7 +8,7 @@
 //  |  _| | | | | | (_| |  __/ |   | | | |\ V  V /|   <
 //  |_|   |_|_| |_|\__,_|\___|_|   |_| |_| \_/\_/ |_|\_\
 //
-//  Created by _Finder丶Tiwk on 16/8/1.
+//  Created by _Finder丶Tiwk on 16/8/2.
 //  Copyright © 2016年 _Finder丶Tiwk. All rights reserved.
 //
 
@@ -20,6 +20,6 @@
  *  @brief 占位视图,解决X_DESIGNABLE在Categroy中的bug
  *  @since v1.0.0
  */
-@interface IBPlaceHolderTextField : UITextField
+@interface IBPlaceHolderTableView : UITableView
 
 @end

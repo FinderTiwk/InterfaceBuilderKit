@@ -14,6 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface UITextField (XIBInspectable)
 
 /*! 输入框左边Icon*/
