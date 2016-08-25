@@ -50,7 +50,7 @@ dmVkLg
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="image" keyPath="X_BackgroundImage" value="avatar"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="X_BorderWidth">
-                                        <real key="value" value="12"/>
+                                        <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="X_BorderColor">
                                         <color key="value" red="0.2901960784" green="0.63921568630000003" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>

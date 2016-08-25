@@ -20,5 +20,24 @@
     return NO;
 }
 
+- (void)setX_EstimateHeight:(CGFloat)X_EstimateHeight{
+    if (X_EstimateHeight >0) {
+        self.estimatedRowHeight = X_EstimateHeight;
+    }
+}
+
+- (CGFloat)X_EstimateHeight{
+    return self.estimatedRowHeight;
+}
+
+- (void)setX_AutoRowHeight:(BOOL)X_AutoRowHeight{
+    if (X_AutoRowHeight) {
+        self.rowHeight = UITableViewAutomaticDimension;
+    }
+}
+
+- (BOOL)X_AutoRowHeight{
+    return YES;
+}
 
 @end

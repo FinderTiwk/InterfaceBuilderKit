@@ -13,5 +13,9 @@ IB_DESIGNABLE
 
 /*! 是否显示空的表格*/
 @property (nonatomic,assign) IBInspectable BOOL X_ShowEmptyFooter;
+/*! 预估行高*/
+@property (nonatomic,assign) IBInspectable CGFloat X_EstimateHeight;
+/*! 是否自动适应Cell高度 搭配X_EstimateHeight 使用*/
+@property (nonatomic,assign) IBInspectable BOOL X_AutoRowHeight;
 
 @end
